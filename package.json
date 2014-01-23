@@ -1,0 +1,39 @@
+{
+  "name": "tutsapp",
+  "version": "0.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express": "3.4.0",
+    "mongoose": ">= 2.6.5",
+    "grunt-jasmine-runner": "~0.6.0",
+    "grunt": "~0.4.1"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.6.4",
+    "express": "~3.4.0",
+    "extdirect": "~1.1.1",
+    "mongoose": "~3.6.20",
+    "socket.io": "~0.9.16",
+    "nconf": "~0.6.7",
+    "connect-gzip": "~0.1.6",
+    "grunt-contrib-qunit": "~0.3.0",
+    "qunit": "~0.5.16",
+    "grunt-contrib-nodeunit": "~0.2.1",
+    "nodeunit": "~0.8.1",
+    "nodemon": "~0.7.10",
+    "grunt-concurrent": "~0.4.1",
+    "node-inspector": "~0.5.0",
+    "watch": "~0.8.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-nodemon": "~0.1.1",
+    "grunt-node-inspector": "~0.1.1",
+    "async": "~0.2.9"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "MIT"
+}
